@@ -1,0 +1,120 @@
+aid: rabbit-r1
+url: https://raw.githubusercontent.com/api-evangelist/rabbit-r1/refs/heads/main/apis.yml
+name: Rabbit
+kind: company
+description: >-
+  Rabbit is the maker of the R1, a $199 handheld AI device running rabbitOS
+  2.1 with no subscription required. The R1 ships with Magic Recorder
+  (unlimited recordings, transcripts, AI summaries), Magic Camera, Magic
+  Voice, and DLAM — the Desktop Large Action Model, a plug-and-play controller
+  that carries out tasks across the user's computer OS. Rabbit's Large Action
+  Model is exposed to users via the LAM Playground on rabbit.tech. Industrial
+  design is by Teenage Engineering. Partner integrations (e.g. OpenClaw for
+  voice-activated task automation) are user-configured. No public developer
+  API or SDK is documented; partner / developer access appears to be gated.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - AI
+  - Hardware
+  - Handheld
+  - Large Action Model
+  - LAM
+  - Agents
+  - Consumer
+  - rabbitOS
+  - Teenage Engineering
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: rabbit-r1:r1-device
+    name: Rabbit R1 Device
+    description: >-
+      Handheld AI device ($199) running rabbitOS 2.1 with unlimited AI usage
+      included, no subscription. Bundles Magic Recorder (recordings,
+      transcripts, AI summaries), Magic Camera, and Magic Voice. Ships in 3
+      business days with a 30-day return window. Industrial design by Teenage
+      Engineering.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.rabbit.tech/
+    baseURL: https://www.rabbit.tech
+    tags:
+      - Hardware
+      - Handheld
+      - Consumer
+      - rabbitOS
+      - Magic Recorder
+    properties:
+      - type: ProductPage
+        url: https://www.rabbit.tech/
+      - type: rabbitOS
+        url: https://www.rabbit.tech/rabbit-os
+  - aid: rabbit-r1:dlam
+    name: DLAM (Desktop Large Action Model)
+    description: >-
+      Plug-and-play controller that carries out tasks across the user's
+      desktop operating system. Marketed as the first DLAM and the
+      productized form of Rabbit's Large Action Model on the desktop.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.rabbit.tech/
+    baseURL: https://www.rabbit.tech
+    tags:
+      - LAM
+      - Desktop
+      - Agent
+      - Automation
+    properties:
+      - type: ProductPage
+        url: https://www.rabbit.tech/
+  - aid: rabbit-r1:lam-playground
+    name: LAM Playground
+    description: >-
+      Web-based playground for Rabbit's Large Action Model on rabbit.tech.
+      Public API access and developer documentation for LAM are not currently
+      published; partner / developer access is gated.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.rabbit.tech/lam-playground
+    baseURL: https://www.rabbit.tech
+    tags:
+      - LAM
+      - Playground
+      - Agents
+      - Web
+    properties:
+      - type: ProductPage
+        url: https://www.rabbit.tech/lam-playground
+  - aid: rabbit-r1:openclaw
+    name: OpenClaw Integration
+    description: >-
+      Third-party, user-configured voice-activated task automation surface
+      on the R1. Not an official developer API but exposes user-level
+      extensibility.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.rabbit.tech/
+    baseURL: https://www.rabbit.tech
+    tags:
+      - Integration
+      - Voice
+      - Automation
+      - Third Party
+    properties:
+      - type: ProductPage
+        url: https://www.rabbit.tech/
+common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/rabbit-inc
+  - type: Website
+    url: https://www.rabbit.tech/
+  - type: LAMPlayground
+    url: https://www.rabbit.tech/lam-playground
+  - type: rabbitOS
+    url: https://www.rabbit.tech/rabbit-os
+  - type: Plans
+    url: plans/rabbit-r1-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/rabbit-r1-rate-limits.yml
+  - type: FinOps
+    url: finops/rabbit-r1-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
