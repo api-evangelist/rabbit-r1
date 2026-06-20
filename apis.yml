@@ -12,7 +12,7 @@ description: >-
   design is by Teenage Engineering. Partner integrations (e.g. OpenClaw for
   voice-activated task automation) are user-configured. No public developer
   API or SDK is documented; partner / developer access appears to be gated.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - AI
   - Hardware
@@ -35,7 +35,7 @@ apis:
       transcripts, AI summaries), Magic Camera, and Magic Voice. Ships in 3
       business days with a 30-day return window. Industrial design by Teenage
       Engineering.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.rabbit.tech/
     baseURL: https://www.rabbit.tech
     tags:
@@ -55,7 +55,7 @@ apis:
       Plug-and-play controller that carries out tasks across the user's
       desktop operating system. Marketed as the first DLAM and the
       productized form of Rabbit's Large Action Model on the desktop.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.rabbit.tech/
     baseURL: https://www.rabbit.tech
     tags:
@@ -72,7 +72,7 @@ apis:
       Web-based playground for Rabbit's Large Action Model on rabbit.tech.
       Public API access and developer documentation for LAM are not currently
       published; partner / developer access is gated.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.rabbit.tech/lam-playground
     baseURL: https://www.rabbit.tech
     tags:
@@ -89,7 +89,7 @@ apis:
       Third-party, user-configured voice-activated task automation surface
       on the R1. Not an official developer API but exposes user-level
       extensibility.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.rabbit.tech/
     baseURL: https://www.rabbit.tech
     tags:
