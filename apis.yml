@@ -101,6 +101,8 @@ apis:
       - type: ProductPage
         url: https://www.rabbit.tech/
 common:
+  - type: DomainSecurity
+    url: security/rabbit-r1-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/rabbit-inc
   - type: Website
