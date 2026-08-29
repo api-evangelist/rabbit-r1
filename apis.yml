@@ -12,6 +12,17 @@ description: >-
   design is by Teenage Engineering. Partner integrations (e.g. OpenClaw for
   voice-activated task automation) are user-configured. No public developer
   API or SDK is documented; partner / developer access appears to be gated.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
